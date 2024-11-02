@@ -3,7 +3,7 @@
 set -ex
 
 if [[ "$target_platform" != "linux-ppc64le" ]]; then
-    QT_SUPPORT=QT6
+    QT_SUPPORT=QT5
 else
     QT_SUPPORT=OFF
 fi

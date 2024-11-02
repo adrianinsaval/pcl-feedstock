@@ -20,7 +20,7 @@ cmake -G "Ninja" ^
   -DWITH_PCAP=OFF ^
   -DWITH_PNG=OFF ^
   -DWITH_QHULL=ON ^
-  -DWITH_QT=QT6 ^
+  -DWITH_QT=QT5 ^
   -DWITH_VTK=ON ^
   -DBUILD_global_tests=OFF ^
   -DBUILD_examples=OFF ^
