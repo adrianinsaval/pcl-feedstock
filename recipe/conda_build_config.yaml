@@ -2,3 +2,5 @@ channel_sources:
 - freecad/label/qt5,conda-forge
 channel_targets:
 - freecad dev
+vtk:
+- 9.2.6
