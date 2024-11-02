@@ -3,7 +3,7 @@ c_stdlib:
 channel_sources:
 - conda-forge
 channel_targets:
-- conda-forge main
+- freecad dev
 cxx_compiler:
 - vs2019
 flann:
@@ -14,13 +14,12 @@ libboost_devel:
 - '1.84'
 libpng:
 - '1.6'
-pin_run_as_build:
-  flann:
-    max_pin: x.x.x
+pcl:
+- 1.14.1
 qhull:
 - '2020.2'
-qt6_main:
-- '6.7'
+qt_main:
+- '5.15'
 target_platform:
 - win-64
 vtk:

@@ -9,11 +9,11 @@ c_stdlib_version:
 channel_sources:
 - conda-forge
 channel_targets:
-- conda-forge main
+- freecad dev
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '16'
+- '18'
 flann:
 - 1.9.2
 glew:
@@ -24,13 +24,12 @@ libpng:
 - '1.6'
 macos_machine:
 - x86_64-apple-darwin13.4.0
-pin_run_as_build:
-  flann:
-    max_pin: x.x.x
+pcl:
+- 1.14.1
 qhull:
 - '2020.2'
-qt6_main:
-- '6.7'
+qt_main:
+- '5.15'
 target_platform:
 - osx-64
 vtk:
