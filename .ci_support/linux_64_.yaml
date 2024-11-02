@@ -5,7 +5,7 @@ c_stdlib_version:
 cdt_name:
 - cos7
 channel_sources:
-- conda-forge
+- freecad/label/qt5,conda-forge
 channel_targets:
 - freecad dev
 cxx_compiler:
