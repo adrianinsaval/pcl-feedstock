@@ -1,4 +1,10 @@
 channel_sources:
 - freecad,conda-forge
 channel_targets:
-- freecad dev
+- freecad
+vtk:
+- 9.3.0
+pcl:
+- 1.14.1
+libboost_devel:
+- '1.84'
