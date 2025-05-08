@@ -1,4 +1,4 @@
 channel_sources:
-- freecad/label/qt5,conda-forge
+- freecad,conda-forge
 channel_targets:
 - freecad dev
