@@ -3,7 +3,7 @@ c_stdlib:
 channel_sources:
 - freecad,conda-forge
 channel_targets:
-- freecad
+- freecad main
 cxx_compiler:
 - vs2019
 flann:

@@ -19,15 +19,11 @@ build:
     - {{ pin_subpackage('pcl', max_pin='x.x.x') }}
 
 requirements:
+  ignore_run_exports_from:
+    - xorg-libx11  # [linux]
   build:
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
-    - {{ cdt('mesa-libgl-devel') }}  # [linux]
-    - {{ cdt('mesa-dri-drivers') }}  # [linux]
-    - {{ cdt('libselinux') }}        # [linux]
-    - {{ cdt('libxdamage') }}        # [linux]
-    - {{ cdt('libxxf86vm') }}        # [linux]
-    - {{ cdt('libxext') }}           # [linux]
     - {{ cdt('libglvnd-devel') }}    # [linux]
     - {{ cdt('libglvnd-glx') }}      # [linux]
     - cmake
@@ -47,6 +43,12 @@ requirements:
     - libpng
     - glew
     - qt-main  # [not ppc64le]
+    - libgl-devel  # [linux]
+    - libegl-devel  # [linux]
+    - libglvnd-devel  # [linux]
+    - libglx-devel  # [linux]
+    - libxcb  # [linux]
+    - xorg-libx11  # [linux]
   run:
     - flann
     - qhull

@@ -33,14 +33,14 @@ Current release info
 Installing pcl
 ==============
 
-Installing `pcl` from the `freecad/label/` channel can be achieved by adding `freecad/label/` to your channels with:
+Installing `pcl` from the `freecad` channel can be achieved by adding `freecad` to your channels with:
 
 ```
-conda config --add channels freecad/label/
+conda config --add channels freecad
 conda config --set channel_priority strict
 ```
 
-Once the `freecad/label/` channel has been enabled, `pcl` can be installed with `conda`:
+Once the `freecad` channel has been enabled, `pcl` can be installed with `conda`:
 
 ```
 conda install pcl
@@ -55,26 +55,26 @@ mamba install pcl
 It is possible to list all of the versions of `pcl` available on your platform with `conda`:
 
 ```
-conda search pcl --channel freecad/label/
+conda search pcl --channel freecad
 ```
 
 or with `mamba`:
 
 ```
-mamba search pcl --channel freecad/label/
+mamba search pcl --channel freecad
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search pcl --channel freecad/label/
+mamba repoquery search pcl --channel freecad
 
 # List packages depending on `pcl`:
-mamba repoquery whoneeds pcl --channel freecad/label/
+mamba repoquery whoneeds pcl --channel freecad
 
 # List dependencies of `pcl`:
-mamba repoquery depends pcl --channel freecad/label/
+mamba repoquery depends pcl --channel freecad
 ```
 
 

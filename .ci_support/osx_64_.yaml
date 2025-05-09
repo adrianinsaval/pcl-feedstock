@@ -9,7 +9,7 @@ c_stdlib_version:
 channel_sources:
 - freecad,conda-forge
 channel_targets:
-- freecad
+- freecad main
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
