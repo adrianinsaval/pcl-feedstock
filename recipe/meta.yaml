@@ -28,6 +28,8 @@ requirements:
     - {{ cdt('libxdamage') }}        # [linux]
     - {{ cdt('libxxf86vm') }}        # [linux]
     - {{ cdt('libxext') }}           # [linux]
+    - {{ cdt('libglvnd-devel') }}    # [linux]
+    - {{ cdt('libglvnd-glx') }}      # [linux]
     - cmake
     - ninja                          # [win]
     - make                           # [unix]
